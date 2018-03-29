@@ -1,0 +1,6 @@
+<h1>Tasks</h1>
+<div class="Task" ng-repeat="task in $ctrl.tasks.tasks">
+    <h2>Task {{$index + 1}}</h2>
+    <p>name : {{task.title}}</p>
+    <p>description : {{task.description}}</p>
+</div>
